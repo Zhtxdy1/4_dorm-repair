@@ -1,0 +1,14 @@
+# Dependencies and generated artifacts are rebuilt inside Docker stages.
+**/node_modules
+**/dist
+**/target
+**/__pycache__
+**/.pytest_cache
+**/*.log
+**/.env
+**/.env.local
+.git
+deploy/.env.production
+deploy/certs
+deploy/prometheus/alertmanager.yml
+deploy/backup/artifacts
